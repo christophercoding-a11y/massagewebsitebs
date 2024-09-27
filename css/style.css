@@ -1,0 +1,35 @@
+:root {
+    --prim: #e5e6e1;
+    --sec: #4f4d41;
+    --grad: linear-gradient (
+        var (--prim),var (var(--sec))
+    )
+}
+
+*{box-sizing: border-box}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--prim);
+}
+
+.h-item {
+    background-color: #4f4d41;
+}
+
+.section1 {
+    background-color: #dcdbc9;
+}
+
+.footer {
+    background-color: #eeee;
+}
+
+
+
+
+
+
+
